@@ -4,6 +4,12 @@ sudo: true
 
 python:
   - 3.7
+
+env:
+  global:
+    - PIPENV_VENV_IN_PROJECT=1
+    - PIPENV_IGNORE_VIRTURALENVS=1
+
 install:
   - pip install -r requirements-dev.txt
 script:
