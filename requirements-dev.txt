@@ -17,4 +17,9 @@ pyparsing==2.4.7
 pytest==5.4.2
 six==1.15.0
 wcwidth==0.1.9
+
+#Converege
+coverage==5.1
+pytest-cov==2.9.0
+
 -r requirements.txt
