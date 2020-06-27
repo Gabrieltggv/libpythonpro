@@ -4,7 +4,7 @@ import pytest
 
 from libpythonpro import github_api
 
-# Utilizando a lib mocker
+
 @pytest.fixture
 def avatar_url(mocker):
     resp_mock = Mock()
